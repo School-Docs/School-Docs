@@ -1,0 +1,12 @@
+{
+  "title": "School-Machine Docs",
+  "url": "https://school-docs.pages.dev",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "github": "School-Docs/School-Docs",
+  "twitter": "",
+  "defaultDir": "",
+  "defaultBranch": "main"
+}
