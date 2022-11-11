@@ -6,6 +6,6 @@ category: tutorials/equipment1/timeset
 ---
 
 # 장소 번호 모음
---- 
-1: 전체
----
+|번호|장소|
+|---|---|
+|1|전체|
