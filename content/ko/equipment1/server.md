@@ -8,7 +8,7 @@ category: tutorials/equipment1
 해당 장비는 평소 건들일이 없습니다. 앞쪽 유리문은 최대한 닫아두도록 합니다.
 </alert>
 
-![Image](https://cdn.discordapp.com/attachments/1040428975203307604/1040429017737736292/IMG_0173.jpg)
+![Image](https://media.discordapp.net/attachments/1040428975203307604/1040429017737736292/IMG_0173.jpg?width=186&height=630)
 
 1. 디지털 시스템 모니터, 디지털 마스터 컨트롤러, 디지털 오디오 믹서
 2. 무선 마이크 전원 : `Power` 버튼을 누르면 ON/OFF 가 가능하다.
