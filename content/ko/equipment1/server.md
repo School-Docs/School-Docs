@@ -4,6 +4,9 @@ description: Server 사용법입니다.
 
 category: tutorials/equipment1
 ---
+<alert type="danger">
+해당 장비는 평소 건들일이 없습니다. 앞쪽 유리문은 최대한 닫아두도록 합니다.
+</alert>
 
 ![Image](/image/Server%20Image.jpg)
 
