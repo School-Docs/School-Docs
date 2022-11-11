@@ -5,7 +5,7 @@ description: Server 사용법입니다.
 category: tutorials/equipment1
 ---
 <alert type="danger">
-해당 장비는 평소 건들일이 없습니다. 앞쪽 유리문은 최대한 닫아두도록 합니다.
+해당 장비는 평소 사용 할일이 없습니다. 앞쪽 유리문은 최대한 닫아두도록 합니다.
 </alert>
 
 ![Image](https://media.discordapp.net/attachments/1040428975203307604/1040429017737736292/IMG_0173.jpg?width=186&height=630)
