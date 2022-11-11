@@ -4,6 +4,9 @@ description: 시보 설정하는 방법입니다.
 
 category: tutorials/equipment1/timeset
 ---
+<alert type="danger">
+해당 시간표들은 예시이므로 실제 시간표와 맞는 지 확인 후 사용하시기 바랍니다.
+</alert>
 
 # 코로나 시간표
 
