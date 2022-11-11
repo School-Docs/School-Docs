@@ -2,7 +2,7 @@
 title: Server 설명
 description: Server 사용법입니다.
 
-category: equipment1
+category: tutorials/equipment1
 ---
 
 ![Image](/image/Server%20Image.jpg)
