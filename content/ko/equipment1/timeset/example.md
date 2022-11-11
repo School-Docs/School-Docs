@@ -5,7 +5,7 @@ description: 시보 설정하는 방법입니다.
 category: tutorials/equipment1/timeset
 ---
 
-# 시간 표 맞추는 방법
+# 코로나 시간표
 
 <details>
 <summary>월/수/금 코로나 시간표(6교시)</summary>
@@ -71,6 +71,8 @@ category: tutorials/equipment1/timeset
 
 </div>
 </details>
+
+# 정상 시간표
 
 <details>
 <summary>월/수/금 정상 시간표(6교시)</summary>
