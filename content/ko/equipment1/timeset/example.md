@@ -103,6 +103,9 @@ category: tutorials/equipment1/timeset
 |14|40|20|1|
 |15|40|23|1|
   
+</div>
+</details>
+
 <details>
 <summary>시험 코로나 시간표(6교시)</summary>
 <div markdown="5">
@@ -134,9 +137,6 @@ category: tutorials/equipment1/timeset
 |14|32|30|1|
 |14|35|20|1|
 |15|15|23|1|
-
-</div>
-</details>
 
 </div>
 </details>
