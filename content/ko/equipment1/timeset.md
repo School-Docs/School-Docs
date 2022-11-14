@@ -14,4 +14,4 @@ category: tutorials/equipment1
 6. `저장` 버튼을 누른 후 팝업 창이 뜨면 `확인`을 눌러주세요.
 7. `전송` 버튼을 누른 후 팝업 창이 뜨면 `확인`을 눌러주세요.
 ## 추가 문서
-[예시](/equipment1/timeset/example.md)
+[예시](/equipment1/timeset/example)
