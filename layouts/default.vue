@@ -8,7 +8,7 @@
                     search
                 .iconArea
                     a(href="https://github.com/School-Docs/School-Docs")
-                        i.fab.fa-github
+                        <i class="fab fa-github"></i>
         
         .h-16
         
