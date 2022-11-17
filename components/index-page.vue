@@ -13,8 +13,7 @@
                 p.my-3
                     nuxt-link(to="/category/faq")
                         button.w-full.flex-none.bg-gray-900.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
-                            | 탐색하기
-                            i.fal.fa-arrow-right.ml-2
+                            | 탐색하기  &#x27A1;
                 .flex
                     span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 School-Machine Docs
                     span.tag.bg-gray-200.p-2.text-sm.rounded-lg.text-gray-500 FAQ
@@ -30,24 +29,21 @@
                 .flex-grow
                 nuxt-link(to="/category/tutorials/equipment1")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
-                        | 지금 확인하기
-                        i.fal.fa-arrow-right.ml-2
+                        | 지금 확인하기 &#x27A1;
             .rounded-xl.bg-gradient-to-br.from-yellow-400.to-orange-500.p-5.text-white.flex.flex-col.gap-5
                 h2.font-bold.text-2xl 송백관 장비 가이드
                 h3 송백관 장비 사용을 위한 꿀팁들을 모아 확인해보세요.
                 .flex-grow
                 nuxt-link(to="/category/tutorials/equipment2")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
-                        | 지금 확인하기
-                        i.fal.fa-arrow-right.ml-2
+                        | 지금 확인하기 &#x27A1;
             .rounded-xl.bg-gradient-to-br.from-green-400.to-green-600.p-5.text-white.flex.flex-col.gap-5
                 h2.font-bold.text-2xl 기타 장비 가이드
                 h3 기타 장비 사용을 위한 꿀팁들을 모아 확인해보세요.
                 .flex-grow
                 nuxt-link(to="/category/faq/others")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
-                        | 지금 확인하기
-                        i.fal.fa-arrow-right.ml-2
+                        | 지금 확인하기 &#x27A1;
 
         hr
 
