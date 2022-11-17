@@ -44,30 +44,7 @@
                 nuxt-link(to="/category/faq/others")
                     button.w-full.flex-none.bg-gray-900.bg-opacity-20.text-white.leading-6.py-2.px-3.border.border-transparent.rounded-lg.transition.duration-200(class="sm:w-auto hover:bg-gray-700 focus:ring-offset-2 focus:ring-offset-white focus:ring-gray-900 focus:outline-none focus:ring-2")
                         | 지금 확인하기 &#x27A1;
-
         hr
-
-        .my-10.grid.grid-cols-1.gap-4(class="lg:grid-cols-3")
-            a.flex.items-center.text-sm(href="https://stella-it.com/discord" target="_blank")
-                .community-icon.rounded-lg.bg-gray-800.flex.items-center.justify-center.mr-3
-                    i.fab.fa-discord.text-white.text-lg
-                .flex.flex-col
-                    h2.font-bold.text-2xl Discord
-                    h3.text-gray-600 School-Machine Docs 이용자들이 함께하는 커뮤니티에서 궁금한 것을 물어보세요.
-            a.flex.items-center.text-sm(href="https://stella-it.channel.io" target="_blank")
-                .community-icon.rounded-lg.bg-green-600.flex.items-center.justify-center.mr-3
-                    i.fas.fa-user-headset.text-white.text-lg
-                .flex.flex-col
-                    h2.font-bold.text-2xl 고객센터
-                    h3.text-gray-600 문서가 이해되지 않았다면, School-Machine Docs 커뮤니티에서 궁금한 것을 물어보세요.
-            a.flex.items-center.text-sm(href="https://console.stella-it.com" target="_blank")
-                .community-icon.rounded-lg.bg-black.flex.items-center.justify-center.mr-3
-                    i.fas.fa-terminal.text-white.text-lg
-                .flex.flex-col
-                    h2.font-bold.text-2xl 준비중
-                    h3.text-gray-600 준비중
-
-
 </template>
 
 <script>

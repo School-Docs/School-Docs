@@ -3,8 +3,7 @@
         .w-full.relative(@keydown.down='increment' @keydown.up='decrement' @keydown.enter='go')
             label.sr-only(for='search') Search
             .relative
-                i.far.fa-search.absolute.left-3.transform.text-gray-400(class="top-1/2 -translate-y-1/2")
-                input#search.block.w-full.pl-10.pr-3.py-2.truncate.leading-5.placeholder-gray-500.border.border-transparent.text-gray-700.rounded-md.bg-gray-200(ref='search' v-model='q' class='dark:text-white dark-focus:text-white focus:border-gray-300 dark-focus:border-gray-700 focus:outline-none focus:bg-white dark-focus:bg-gray-900 dark:bg-gray-800' :class="{ 'rounded-b-none': focus && (searching || results.length) }" placeholder='문서를 검색해보세요.' type='search' autocomplete='off' @focus='onFocus' @blur='onBlur')
+              input#search.block.w-full.pl-10.pr-3.py-2.truncate.leading-5.placeholder-gray-500.border.border-transparent.text-gray-700.rounded-md.bg-gray-200(ref='search' v-model='q' class='dark:text-white dark-focus:text-white focus:border-gray-300 dark-focus:border-gray-700 focus:outline-none focus:bg-white dark-focus:bg-gray-900 dark:bg-gray-800' :class="{ 'rounded-b-none': focus && (searching || results.length) }" placeholder='문서를 검색해보세요.' type='search' autocomplete='off' @focus='onFocus' @blur='onBlur')
         ul.z-10.absolute.w-full.flex-1.top-0.bg-white.rounded-md.border.border-gray-300.overflow-hidden(v-show='focus && (searching || results.length)' class='dark:bg-gray-900 dark:border-gray-700' :class="{ 'rounded-t-none': focus && (searching || results.length) }" style='margin-top: 37px;')
             li.px-4.py-2.flex.gap-2(v-if='searching && !results.length')
               loading
