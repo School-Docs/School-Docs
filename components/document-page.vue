@@ -18,6 +18,24 @@
 
         hr.my-10
         .my-10.grid.grid-cols-1.gap-4(class="lg:grid-cols-3")
+            a.flex.items-center.text-sm(href="https://stella-it.com/discord" target="_blank")
+                .community-icon.rounded-lg.bg-gray-800.flex.items-center.justify-center.mr-3
+                    i.fab.fa-discord.text-white.text-lg
+                .flex.flex-col
+                    h2.font-bold.text-2xl Discord
+                    h3.text-gray-600 아직 잘 모르겠나요? School-Docs 이용자들이 함께하는 커뮤니티에서 궁금한 것을 물어보세요.
+            a.flex.items-center.text-sm(href="https://stella-it.channel.io" target="_blank")
+                .community-icon.rounded-lg.bg-green-600.flex.items-center.justify-center.mr-3
+                    i.fas.fa-user-headset.text-white.text-lg
+                .flex.flex-col
+                    h2.font-bold.text-2xl 고객센터
+                    h3.text-gray-600 문서가 이해되지 않았다면, School-Docs 고객센터에서 궁금한 것을 물어보세요.
+            a.flex.items-center.text-sm(:href="`https://github.com/Stella-IT/docs/blob/master/content${this.pageSlug.path}.md`" target="_blank")
+                .community-icon.rounded-lg.bg-black.flex.items-center.justify-center.mr-3
+                    i.fab.fa-github.text-white.text-lg
+                .flex.flex-col
+                    h2.font-bold.text-2xl GitHub
+                    h3.text-gray-600 잘못된 내용이 기재되어 있나요? GitHub에서 이 문서를 수정하세요.
 </template>
 
 <script>
@@ -49,7 +67,7 @@ export default {
     },
     methods: {
         async getContributors() {
-            const {data} = await this.$axios.get(`https://api.github.com/repos/School-Docs/School-Docs/commits?path=content${this.pageSlug.path}.md`)
+            const {data} = await this.$axios.get(`https://api.github.com/repos/School-docs/School-docs/commits?path=content${this.pageSlug.path}.md`)
             let duplicate = []
             for (const item of data) {
                 if (!duplicate.includes(item.author.login)) {
@@ -63,5 +81,4 @@ export default {
 </script>
 
 <style lang="postcss" scoped>
-
 </style>
