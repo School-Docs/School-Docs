@@ -5,6 +5,10 @@ description: 시보 설정하는 방법입니다.
 category: tutorials/equipment1/timeset
 ---
 
+<alert type="danger">
+현재 변경 전 상태입니다. 해당 표가 아닌 방송실에 붙어있는 표 확인부탁드립니다.
+</alert>
+
 # 시보(종소리) 목록
 
 |번호|설명|
